@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hello/Midterm.dart';
 import 'package:hello/Pages/game/CountingGame.dart';
 import 'package:hello/Pages/game/game_page.dart';
+import 'package:hello/Pages/game/guess_num.dart';
 import 'package:hello/Pages/game/page.dart';
 import 'package:hello/Pages/game/LockScreen.dart';
 import 'package:hello/Pages/game/work.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Midterm(),
+      home: GuessNum(),
     );
   }
 }
