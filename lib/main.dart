@@ -8,6 +8,8 @@ import 'package:hello/Pages/game/LockScreen.dart';
 import 'package:hello/Pages/game/work.dart';
 import 'dart:math';
 
+import 'package:hello/ThaiFontViewer.dart';
+
 void main() {
   // String num = (new Random().nextInt(100)+1).toString();
   //
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GuessNum(),
+      home: ThaiFontViewer(),
     );
   }
 }
