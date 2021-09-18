@@ -8,9 +8,7 @@ class GuessGame{
   GuessGame():
         _answer = Random().nextInt(100),
         _totalGuess = 0,
-        _guess = [] {
-    print(_answer);
-  }
+        _guess = [];
 
 
   get answer{
