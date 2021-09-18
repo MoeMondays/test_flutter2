@@ -6,6 +6,7 @@ import 'package:hello/Pages/game/guess_num.dart';
 import 'package:hello/Pages/game/page.dart';
 import 'package:hello/Pages/game/LockScreen.dart';
 import 'package:hello/Pages/game/work.dart';
+import 'package:hello/Pages/works/GuessNumber.dart';
 import 'dart:math';
 
 import 'package:hello/ThaiFontViewer.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ThaiFontViewer(),
+      home: GuessNumber(),
     );
   }
 }
